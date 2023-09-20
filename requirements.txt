@@ -1,0 +1,6 @@
+autopep8==2.0.2
+flake8==6.0.0
+isort==5.12.0
+pyflakes==3.0.1
+torch==2.0.0+cpu
+torchinfo==1.8.0
