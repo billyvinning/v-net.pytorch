@@ -31,4 +31,5 @@ whitelist-regex = []
 color = true
 omit-covered-files = false
 generate-badge = "."
+badge-style = "flat"
 badge-format = "svg"
