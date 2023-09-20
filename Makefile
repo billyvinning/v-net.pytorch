@@ -1,13 +1,20 @@
-TORCHINFO_REPORT := torchinfo_report.txt
+MODEL_SUMMARY := model_summary.txt
+COMPUTE_GRAPH := compute_graph.pdf
 
 
-$(TORCHINFO_REPORT):
-	python make_torchinfo_report.py > $(TORCHINFO_REPORT)
+all: $(MODEL_SUMMARY) $(COMPUTE_GRAPH)
+
+$(MODEL_SUMMARY):
+	python make_model_summary.py > $(MODEL_SUMMARY)
+
+
+$(COMPUTE_GRAPH):
+	python make_compute_graph.py
+	rm Digraph.gv
+	mv Digraph.gv.pdf $(COMPUTE_GRAPH)
 
 
 clean:
-	rm $(TORCHINFO_REPORT)
+	rm $(MODEL_SUMMARY) $(COMPUTE_GRAPH)
 
 
-all:
-	$(TORCHINFO_REPORT)

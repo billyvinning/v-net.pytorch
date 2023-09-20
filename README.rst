@@ -24,7 +24,7 @@ v-net.pytorch
 
 A PyTorch implementation of the medical segmentation model given in F. Milletari, N. Navab and S.A. Ahmadi's `"V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation" <https://arxiv.org/pdf/1606.04797.pdf>`_.
 
-**NOTE**: the paper's results have not yet been recreated, hence do not expect it to work as intended.
+**NOTE**: the paper's results have not yet been recreated, hence do not expect this code to work as intended.
 
 Usage
 =====
