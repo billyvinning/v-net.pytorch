@@ -61,7 +61,7 @@ The hyper-parameters expected to recreate the model given in the original paper 
 Model Summary
 =============
 
-The following table is the ``torchinfo`` report of ``original_model``.
+The following table is the ``torchinfo`` report of ``original_model``. The compute graph may be viewed `here <compute_graph.pdf>`_.
 
 .. code-block:: bash
 
